@@ -1,2 +1,2 @@
 # Data_types
-data type representation 
+data type representation(using scanner input methods)
