@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class Datatypes {
+    public static void main(String[] args) {
+        Scanner scanner =new Scanner (System.in);
+        System.out.println("enter the integer data type");
+        int num =scanner.nextInt();
+        System.out.println("enter the double integer data type");
+        double num1 =scanner.nextDouble();
+        System.out.println("enter the float integer data type");
+        float num2=scanner.nextFloat();
+        System.out.println("enter the long integer data type");
+        long num3=scanner.nextLong();
+        System.out.println("enter the char");
+        char character = scanner.next().charAt(0);
+        System.out.println("enter name");
+        String name = scanner.next();
+        System.out.println(num);
+        System.out.println(num1);
+        System.out.println(num2);
+        System.out.println(num3);
+        System.out.println(character);
+        System.out.println(name);
+        scanner.close();
+
+        
+    
+    }
+    
+}
